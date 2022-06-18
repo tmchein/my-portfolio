@@ -1,4 +1,5 @@
 import "./App.css";
+import FooterWindow from "./components/FooterWindow";
 import LangSwitch from "./components/LangSwitch";
 import Window from "./components/Window";
 import WindowContent from "./components/WindowContent";
@@ -22,6 +23,7 @@ function App() {
             <WindowContent />
           </Window>
         </section>
+        <FooterWindow />
       </div>
     </I18NProvider>
   );
