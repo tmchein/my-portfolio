@@ -8,6 +8,7 @@ export default function WindowButton({ action = "close", maximizeFn }) {
   const backgroundColor = ACTION_COLORS[action];
   const handleClick = () => {
     if (action !== "maximize") return;
+    if (window.innerWidth < 1024) return;
     maximizeFn(1.425);
   };
   return (
