@@ -8,7 +8,7 @@ import { useI18N } from "../../context/useI18n";
 export default function WindowContent() {
   const { t } = useI18N();
   return (
-    <main className="relative h-[95%] w-full">
+    <main className="relative h-[calc(100%-16px)] w-full">
       <div className="w-full h-full flex flex-col items-center absolute overflow-auto px-2 sm:px-24">
         <h1 className="text-4xl text-center font-bold underline mb-8">
           {t("PAGE_TITLE_GREETING")}

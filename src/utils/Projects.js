@@ -6,12 +6,6 @@ const projects = [
     url: "https://tmclima.netlify.app",
   },
   {
-    id: 2,
-    name: "TMBlog",
-    icon: "/remixjs.png",
-    url: "https://tmblog.vercel.app",
-  },
-  {
     id: 3,
     name: "TMChat",
     icon: "/javascript.png",
