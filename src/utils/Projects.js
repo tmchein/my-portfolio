@@ -13,6 +13,12 @@ const projects = [
   },
   {
     id: 4,
+    name: "TMUrl",
+    icon: "/scissors.svg",
+    url: "https://tmurl.vercel.app",
+  },
+  {
+    id: 5,
     name: "GitHub",
     icon: "/github.png",
     url: "https://www.github.com/davidr2998",
